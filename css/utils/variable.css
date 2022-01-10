@@ -1,0 +1,25 @@
+:root{
+    /* Color styles */
+--rose-pâle: rgba(255, 227, 227, 1);
+--orange-clair: rgba(255, 189, 189, 1);
+--rose: rgba(255, 235, 244, 1);
+--magenta: rgba(255, 178, 238, 1);
+
+/* Text-size styles */
+/* base size: heading-4 (16px) */
+--body-1: 1.3rem;
+--heading-2: 3rem;   
+--heading-3: 2rem;
+--légende-de-photo: 0.69rem;
+--chapeau: 1.06rem;
+--frise: 0.69rem;
+--heading-1: 2.62rem;
+--heading-5: 0.81rem;
+--heading-4: 1rem;
+
+
+/* Text-font styles */
+--site: 'Merienda';
+--para: 'Marvel';
+}
+

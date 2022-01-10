@@ -1,0 +1,12 @@
+.livre{
+    display: flex;
+    flex-direction: column;
+}
+
+.livre__img{
+    align-self: center;
+}
+
+.livre__para{
+    align-self: center;
+}

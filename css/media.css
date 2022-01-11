@@ -2,6 +2,9 @@ img{
     width: auto;
     height: auto;
     max-width: 100%;
+    display:flex;
+    justify-content: center;
+    align-items: center;
 
 
     
@@ -11,11 +14,19 @@ img{
     width: 375px;
     height: auto;
 }
-figure {
-    text-align: center;
-}
-
-.legende__img {
+figure img {
     display: flex;
     align-items: center;
 }
+.arti2{
+    display: flex;
+    align-content: center;
+    justify-content: center;
+    flex-direction: column;
+    
+}
+.art3 {
+    margin-left: auto;
+}
+
+

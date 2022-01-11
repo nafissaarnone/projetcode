@@ -1,8 +1,21 @@
 img{
+    width: auto;
+    height: auto;
     max-width: 100%;
+
+
+    
    
 }
 .image__entier{
     width: 375px;
     height: auto;
+}
+figure {
+    text-align: center;
+}
+
+.legende__img {
+    display: flex;
+    align-items: center;
 }

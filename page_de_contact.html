@@ -1,32 +1,99 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="fr"> 
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>page d'acceuil</title>
+    <title>Menu mobile</title>
+  <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
+<header>
+    
+    <div class="nav-toogle"  onclick="document.documentElement.classList.toggle('menu-open')">
+        <div class="nav-toogle-bar"></div>
+    </div>
 
-    <header>
-    <img src="public/icones/menu_1.svg" alt="Bouton menu">
-    <img src="public/icones/VICTIMS.webp" alt="victims">
-        <a href="/index.html">
-            <img src="public/icones/logo.svg" alt="logo vitims">
-        </a>
-    </header>
+      
+
+    <nav class="menu">
+        <div class="menu__titre"> 
+         <h1 class="h1__menu">Victims</h1>  
+        
+         <a class="logo__menu" href="/index.html"> <img src="public/icones/logo.svg" alt="logo vitims"> </a> 
+       </div> <ul>
+            <li class="menu__item" ><a class="menu__link" href="article.html">A-t-on encore besoin du féminisme</a></li>
+            <li class="menu__item" ><a class="menu__link" href="article2.html">Beyoncé est-elle féministe</a></li>
+            <li class="menu__item" ><a class="menu__link" href="article3.html">Le féminisme de Beyoncé fait débat</a></li>
+            <li class="menu__item" ><a class="menu__link" href="glossaire.html">Lexique</a></li>
+            <li class="menu__item" ><a class="menu__link" href="galerie_frise.html">Galerie et frise chronologique</a></li>
+            <li class="menu__item" ><a class="menu__link" href="autres_projet.html">Autres projets</a></li>
+            <li class="menu__item" ><a class="menu__link" href="a_propos.html">A propos</a></li>
+            <li class="menu__item" ><a class="menu__link" href="page_de_contact.html">Page de contact</a></li>
+        </ul>
+    </nav>  
+    <h1>
+        Victims
+    </h1>
+    <!-- <img src="public/icones/VICTIMS.webp" alt="victims"> -->
+    <a href="/index.html"> <img src="public/icones/logo.svg" alt="logo vitims"> </a> 
+</header>
 
     <p>Pour toute question ou demande de contact, je suis disponible via le formulaire ci-dessous.</p>
    <body>
-       
-   <form method="post" action="naf.arno@live.com">
-        Nom: <input type="text" size="10" maxlength="40" name="nom" /><br />
-        Prénom: <input type="text" size="10" maxlength="40" name="Prénom" /><br />
-        Mail: <input type="text" size="10" maxlength="40" name="Mail" /><br />
-        Message: <input type="text" size="10" maxlength="40" name="Message" /><br />
-        <input type="submit" value="Envoyer" />
-    </form>
+       <div class="bleu__formu"> 
+    <div class="section">
+        <div class="label"><label for="name">Nom:</label></div> 
+
+         <input class="input" type="text" id="name" name="name" required
+         minlength="4" maxlength="20" size="10">
+     </div>
+
+     <div class="section">
+        <div class="label"><label for="name">Prénom:</label></div> 
+
+         <input class="input"  type="text" id="surname" name="surname" required
+         minlength="4" maxlength="20" size="10">
+     </div>
+     
+
+     <div class="section">
+         <div class="label"><label for="name">Email:</label></div>
+
+         <input class="input" type="email" id="maisurl" name="maisurl" required
+         minlength="0" maxlength="20" size="10">
+     </div>
+ 
+     <div class="section">
+         <div class="label"><label   for="name">Sujet:</label></div>
+
+      <input class="input"  type="text" id="sujet" name="sujet" required
+         minlength="0" maxlength="20" size="10"> 
+     </div>
+ 
+     <div class="section">
+        <div class="label"><label   for="name">Messages:</label></div>
+
+     <textarea class="input_2"  type="text" id="sms" name="sms" required
+         minlength="0" maxlength="20" ></textarea>
+     </div>
+
+     <div class="espace__boutons">
+         <button class="bouton_envoyer">
+             envoyer
+         </button>
+     </div>
+    </div>
     <body>
         
+<footer class="footer">
+    <h3>Me contacter</h3>
+    <p>Nafissa arnone ; A1 ; <a href="mailto:">nafissa.arnone@edu.univ-fcomte.fr</a> nafissa.arnone@edu.univ-fcomte.fr</p>
+    <h3>Mentions légales</h3>
+    <p>Projet réalisé dans le cadre d’un exercice pédagogique au département MMI de Montbéliard</p>
+    <a href="index.html">  <img  src="public/icones/france 1.svg" alt="drapeau francais"></a>
+   <a href="pang.html">   <img src="public/icones/anglais 1.svg" alt="drapeau anglais"></a>
+</footer>
+</main>
     
 

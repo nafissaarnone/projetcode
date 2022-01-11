@@ -3,7 +3,7 @@ header{
     flex-direction: row;
     width: 100vw;
     align-items: center;
-    justify-content: space-around;
+    justify-content: flex-end;
     background-color: #FFEBF4;
     margin: 0;
     height: 10vh;
@@ -11,6 +11,10 @@ header{
 }
 
 header h1{
+   margin-right: 30px;
     font-size: 1em;
     color: black;
+    display: flex;
+    margin-right: 96px;
+ 
 }

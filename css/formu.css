@@ -1,0 +1,52 @@
+
+.section {
+    margin-bottom: 5px;
+    
+}
+
+
+
+.label {
+    font-family: var(--para);
+    font-size: var(--texte);
+    color: black;
+    margin-left: 5%;
+    margin-bottom: 5px;
+    
+    
+}
+
+.input {
+    background-color: #BBD2FF;
+    border: none;
+    height: 40px;
+    width: 224px;
+    margin-left: 10%;
+    color: black;
+
+    
+}
+
+.input_2 {
+    background-color: #BBD2FF;
+    border: none;
+
+    height: 94px;
+    width: 240px;
+    margin-left: 5%;
+    color: black;
+}
+
+
+.bouton_envoyer {
+    display: block;
+    font-family: var(--para);
+    font-size: var(texte);
+    background-color: var(--jaune-pale);
+    border-color: none;
+    height: 46px;
+    width: 80px;
+    margin: auto;
+    margin-bottom: 46px;
+}
+

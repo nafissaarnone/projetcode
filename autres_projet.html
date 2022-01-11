@@ -1,46 +1,74 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="fr"> 
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Autres projets</title>
+    <title>Menu mobile</title>
+  <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
+<header>
+    
+    <div class="nav-toogle"  onclick="document.documentElement.classList.toggle('menu-open')">
+        <div class="nav-toogle-bar"></div>
+    </div>
 
-    <header>
-    <img src="public/icones/menu_1.svg" alt="Bouton menu">
-    <img src="public/icones/VICTIMS.webp" alt="victims">
-        <a href="/index.html">
-            <img src="public/icones/logo.svg" alt="logo vitims">
-        </a>
-    </header>
+      
+
+    <nav class="menu">
+        <div class="menu__titre"> 
+         <h1 class="h1__menu">Victims</h1>  
+        
+         <a class="logo__menu" href="/index.html"> <img src="public/icones/logo.svg" alt="logo vitims"> </a> 
+       </div> <ul>
+            <li class="menu__item" ><a class="menu__link" href="article.html">A-t-on encore besoin du féminisme</a></li>
+            <li class="menu__item" ><a class="menu__link" href="article2.html">Beyoncé est-elle féministe</a></li>
+            <li class="menu__item" ><a class="menu__link" href="article3.html">Le féminisme de Beyoncé fait débat</a></li>
+            <li class="menu__item" ><a class="menu__link" href="glossaire.html">Lexique</a></li>
+            <li class="menu__item" ><a class="menu__link" href="galerie_frise.html">Galerie et frise chronologique</a></li>
+            <li class="menu__item" ><a class="menu__link" href="autres_projet.html">Autres projets</a></li>
+            <li class="menu__item" ><a class="menu__link" href="a_propos.html">A propos</a></li>
+            <li class="menu__item" ><a class="menu__link" href="page_de_contact.html">Page de contact</a></li>
+        </ul>
+    </nav>  
+    <h1>
+        Victims
+    </h1>
+    <!-- <img src="public/icones/VICTIMS.webp" alt="victims"> -->
+    <a href="/index.html"> <img src="public/icones/logo.svg" alt="logo vitims"> </a> 
+</header>
+<div class="projet__titnom">
 <p>J’espère que mon site vous à plu. Si vous souhaitez en apprendre davantage sur le féminisme , je vous laisse dévoucvrir le travail de mes colllègue</p>
-<h1>Féminisma</h1>
-<h2>Mélina Bouchelleghem</h2>
-<h1>Women’s work</h1>
-<h2>Lilian Chesneau</h2>
-<h1>Parlons féminisme</h1>
-<h2>Hugo Beaurain</h2>
-<h1>Femini’fight</h1>
-<h2>Alexis Berthon</h2>
-<h1>Femina</h1>
-<h2>Julie Albini</h2>
-<h1>FeminismUS</h1>
-<h2>Corentin Beuchat</h2>
-<h1>Heroine of today</h1>
-<h2>Matthieu Bouque</h2>
-<h1>Inovation in feminism</h1>
-<h2>Eden Bourezg</h2>
-<h1>Les origines du féminisme en europe</h1>
-<h2>Enzo Canonico</h2>
-<h1>Fémi-Nigéria</h1>
-<h2>Maxence Cante</h2>
-<h1>Women’s Power</h1>
-<h2>Morgane Chamberlin</h2>
-<footer>                <h1>Me contacter</h1>
-    <p>Nafissa arnone ; A1 ; nafissa.arnone@edu.univ-fcomte.fr</p>
-    <h1>Mentions légales</h1>
+<a href="https://femina.albini.fr/"><h3 class=projet__titre>Féminisma</h3></a>
+<h3 class=projet__nom>Mélina Bouchelleghem</h2>
+<h3 class=projet__titre>Women’s work</h3>
+<h3 class=projet__nom>Lilian Chesneau</h3>
+<h3 class=projet__titre>Parlons féminisme</h3>
+<h3 class=projet__nom>Hugo Beaurain</h3>
+<h3 class=projet__titre>Femini’fight</h3>
+<h3 class=projet__nom>Alexis Berthon</h3>
+<h3 class=projet__titre>Femina</h3>
+<h3 class=projet__nom>Julie Albini</h3>
+<h3 class=projet__titre>FeminismUS</h3>
+<h3 class=projet__nom>Corentin Beuchat</h3>
+<h3 class=projet__titre>Heroine of today</h3>
+<h3 class=projet__nom>Matthieu Bouque</h3>
+<h3 class=projet__titre>Inovation in feminism</h3>
+<h3 class=projet__nom>Eden Bourezg</h3>
+<h3 class=projet__titre>Les origines du féminisme en europe</h3>
+<h3 class=projet__nom>Enzo Canonico</h3>
+<h3 class=projet__titre>Fémi-Nigéria</h2>
+<h3 class=projet__nom>Maxence Cante</h3>
+<h3 class=projet__titre>Women’s Power</h3>
+<h3 class=projet__nom>Morgane Chamberlin</h3>
+</div>
+
+<footer class="footer">
+    <h3>Me contacter</h3>
+    <p>Nafissa arnone ; A1 ; <a href="mailto:">nafissa.arnone@edu.univ-fcomte.fr</a> nafissa.arnone@edu.univ-fcomte.fr</p>
+    <h3>Mentions légales</h3>
     <p>Projet réalisé dans le cadre d’un exercice pédagogique au département MMI de Montbéliard</p>
-    <img src="public/icones/france 1.svg" alt="drapeau francais">
-    <img src="public/icones/anglais 1.svg" alt="drapeau anglais"></footer>
+    <a href="index.html">  <img  src="public/icones/france 1.svg" alt="drapeau francais"></a>
+   <a href="pang.html">   <img src="public/icones/anglais 1.svg" alt="drapeau anglais"></a>
+</footer>

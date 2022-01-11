@@ -1,47 +1,43 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="fr"> 
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>page d'acceuil</title>
-    <link rel="stylesheet" href="css/lib/normalize.css">
-    <link rel="stylesheet" href="css/mescss/typography.css">
-    <link rel="stylesheet" href="css/mescss/menu.css">
-    <link rel="stylesheet" href="css/lib/layout/header.css">
-    <link rel="stylesheet" href="css/lib/layout/footer.css">
-    <link rel="stylesheet" href="css/utils/variable.css">
-    <link rel="stylesheet" href="css/decor.css">
-    
+    <title>Menu mobile</title>
+  <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
+<header>
+    
+    <div class="nav-toogle"  onclick="document.documentElement.classList.toggle('menu-open')">
+        <div class="nav-toogle-bar"></div>
+    </div>
 
-    <header>
-        <a href="Menu mobile"></a>
-        <div class="nav-toggle" onclick="document.documentElement.classList.toggle('menu-open')">
-            <div class="nav-toggle-bar"></div>
-        </div>
-        <nav class="menu"> 
-            <ul>
-                <li><a href="article.html">A-t-on encore besoin du féminisme</a></li>
-                <li><a href="article2.html">Beyoncé est-elle féministe</a></li>
-                <li><a href="article3.html">Le féminisme de Beyoncé fait débat</a></li>
-                <li><a href="glossaire.html">Lexique</a></li>
-                <li><a href="galerie_frise.html">Galerie et frise chronologique</a></li>
-                <li><a href="autres_projet.html">Autres projets</a></li>
-                <li><a href="a_propos.html">A propos</a></li>
-                <li><a href="page_de_contact.html">Page de contact</a></li>
-                <link rel="stylesheet" href="css/legend.css">
-            </ul>
-        </nav>  
-        <h1>
-            Victims
-        </h1>
-        <!-- <img src="public/icones/VICTIMS.webp" alt="victims"> -->
-        <a href="/index.html">
-            <img src="public/icones/logo.svg" alt="logo vitims">
-        </a>   
-    </header>
+      
+
+    <nav class="menu">
+        <div class="menu__titre"> 
+         <h1 class="h1__menu">Victims</h1>  
+        
+         <a class="logo__menu" href="/index.html"> <img src="public/icones/logo.svg" alt="logo vitims"> </a> 
+       </div> <ul>
+            <li class="menu__item" ><a class="menu__link" href="article.html">A-t-on encore besoin du féminisme</a></li>
+            <li class="menu__item" ><a class="menu__link" href="article2.html">Beyoncé est-elle féministe</a></li>
+            <li class="menu__item" ><a class="menu__link" href="article3.html">Le féminisme de Beyoncé fait débat</a></li>
+            <li class="menu__item" ><a class="menu__link" href="glossaire.html">Lexique</a></li>
+            <li class="menu__item" ><a class="menu__link" href="galerie_frise.html">Galerie et frise chronologique</a></li>
+            <li class="menu__item" ><a class="menu__link" href="autres_projet.html">Autres projets</a></li>
+            <li class="menu__item" ><a class="menu__link" href="a_propos.html">A propos</a></li>
+            <li class="menu__item" ><a class="menu__link" href="page_de_contact.html">Page de contact</a></li>
+        </ul>
+    </nav>  
+    <h1>
+        Victims
+    </h1>
+    <!-- <img src="public/icones/VICTIMS.webp" alt="victims"> -->
+    <a href="/index.html"> <img src="public/icones/logo.svg" alt="logo vitims"> </a> 
+</header>
     <hr>
     <h2>A-T-ON ENCORE BESOIN DU FÉMINISME </h2>
     <hr>
@@ -52,7 +48,7 @@
 
         Droit de vote, légalisation de la contraception et de l’interruption volontaire de grossesse, création du Planning Familial, autorité parentale partagée, égalité des salaires, parité, harcèlement sexuel, lutte contre les violences faites aux femmes, écriture inclusive tout cela fait partie des grandes étapes qui ont constituées l'évolution des mentalités concernant le féminisme. 
         </p>
-        <img class="legende__img" src="public/image/manif343.webp" alt="343">
+        <img class="legende__img " src="public/image/manif343.webp" alt="343">
         <figcaption>Photo du manifeste de 343</figcaption>
         <h3>Le manifeste des 343 salopes 
         </h3>
@@ -72,13 +68,13 @@
             <p>
                 Il est évident que nous avons encore besoin du féminisme .Cependant expliquer à autrui certaines notions en particulier telle que la culture du viol qui est un élément essentiel dans la compréhension de l'engagment de cette cause, indispensable pour l'évolution du féminisme. Il y a 1000 manières d'être féministe, comme tout mouvement politique, le féminisme est riche de débats et de tendances. </p>
                 <a  class="tweet__button" href="article2.html">Lire l'article suivant</a>
-            <footer>
-                <h3>Me contacter</h3>
-                <p>Nafissa arnone ; A1 ; nafissa.arnone@edu.univ-fcomte.fr</p>
-                <h3>Mentions légales</h3>
-                <p>Projet réalisé dans le cadre d’un exercice pédagogique au département MMI de Montbéliard</p>
-                <img src="public/icones/france 1.svg" alt="drapeau francais">
-                <img src="public/icones/anglais 1.svg" alt="drapeau anglais">
-            </footer>
+                <footer class="footer">
+                    <h3>Me contacter</h3>
+                    <p>Nafissa arnone ; A1 ; <a href="mailto:">nafissa.arnone@edu.univ-fcomte.fr</a> nafissa.arnone@edu.univ-fcomte.fr</p>
+                    <h3>Mentions légales</h3>
+                    <p>Projet réalisé dans le cadre d’un exercice pédagogique au département MMI de Montbéliard</p>
+                    <a href="index.html">  <img  src="public/icones/france 1.svg" alt="drapeau francais"></a>
+                   <a href="pang.html">   <img src="public/icones/anglais 1.svg" alt="drapeau anglais"></a>
+                </footer>
     
 

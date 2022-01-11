@@ -2,3 +2,7 @@ img{
     max-width: 100%;
    
 }
+.image__entier{
+    width: 375px;
+    height: auto;
+}

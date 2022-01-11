@@ -1,43 +1,80 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="fr"> 
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Galerie et Frise chronologique</title>
+    <title>Menu mobile</title>
+  <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
+<header>
+    
+    <div class="nav-toogle"  onclick="document.documentElement.classList.toggle('menu-open')">
+        <div class="nav-toogle-bar"></div>
+    </div>
 
-    <header>
-    <img src="public/icones/menu_1.svg" alt="Bouton menu">
-    <img src="public/icones/VICTIMS.webp" alt="victims">
-        <a href="/index.html">
-            <img src="public/icones/logo.svg" alt="logo vitims">
-        </a>
-    </header>
-    <h1>Jeanne d’Arc</h1>
-    <p>
-        Entre 1890 et 1904, l'histoire de Jeanne d'Arc fait naître deux clivages au sein des groupes féministes. "On a la représentation de la Jeanne d'Arc catholique et patriote, très ancrée chez les féministes chrétiennes et nationalistes, et d'un autre côte il y a la Pucelle d'Orléans laïque, courageuse et combative, célébrée par des revendicatrices laïques.</p>
-        <img src="public/image/jeanne_darc.webp" alt="jeanne d'arc">
-    <h1>Tarana Burke 
+      
+
+    <nav class="menu">
+        <div class="menu__titre"> 
+         <h1 class="h1__menu">Victims</h1>  
+        
+         <a class="logo__menu" href="/index.html"> <img src="public/icones/logo.svg" alt="logo vitims"> </a> 
+       </div> <ul>
+            <li class="menu__item" ><a class="menu__link" href="article.html">A-t-on encore besoin du féminisme</a></li>
+            <li class="menu__item" ><a class="menu__link" href="article2.html">Beyoncé est-elle féministe</a></li>
+            <li class="menu__item" ><a class="menu__link" href="article3.html">Le féminisme de Beyoncé fait débat</a></li>
+            <li class="menu__item" ><a class="menu__link" href="glossaire.html">Lexique</a></li>
+            <li class="menu__item" ><a class="menu__link" href="galerie_frise.html">Galerie et frise chronologique</a></li>
+            <li class="menu__item" ><a class="menu__link" href="autres_projet.html">Autres projets</a></li>
+            <li class="menu__item" ><a class="menu__link" href="a_propos.html">A propos</a></li>
+            <li class="menu__item" ><a class="menu__link" href="page_de_contact.html">Page de contact</a></li>
+        </ul>
+    </nav>  
+    <h1>
+        Victims
     </h1>
+    <!-- <img src="public/icones/VICTIMS.webp" alt="victims"> -->
+    <a href="/index.html"> <img src="public/icones/logo.svg" alt="logo vitims"> </a> 
+</header>
+
+    <div class="galeri__espace"> 
+    <h3>Jeanne d’Arc</h3>
+    
+      <img src="public/image/jeanne_darc.webp" alt="jeanne d'arc">
+      <p>   Entre 1890 et 1904, l'histoire de Jeanne d'Arc fait naître deux clivages au sein des groupes féministes. "On a la représentation de la Jeanne d'Arc catholique et patriote, très ancrée chez les féministes chrétiennes et nationalistes, et d'un autre côte il y a la Pucelle d'Orléans laïque, courageuse et combative, célébrée par des revendicatrices laïques.</p>
+        
+      </div>
+      <div class="galeri__espace"> 
+    <h3>Tarana Burke </h3>
+    <img src="public/image/tarana_burke.webp" alt="Tarana burke">
+     
     <p>C’est une militante qui a été elle même victime d’agression sexuel. Elle est à l’origine du me too mouvement .Le mouvement #MeToo est un mouvement social encourageant la prise de parole des femmes, afin de faire savoir que le viol et les agressions sexuelles sont plus courants que ce qui est souvent supposé, et afin de permettre aux victimes de s'exprimer sur le sujet. Il a débuté en 2007 et est particulièrement connu depuis octobre 2017.
     </p>
-    <img src="public/image/tarana_burke.webp" alt="Tarana burke">
-    <h1>
-        Angèle</h1>
+     </div>
+     <div class="galeri__espace"> 
+    <h3> Angèle</h3>
+    <img src="public/image/angele.webp" alt="angele">
         <p>Engagée, la chanteuse belge a fait du sexisme ordinaire son combat, comme l’illustre le clip « Balance ton quoi ». En parallèle, elle soutient financièrement deux associations qui aident les femmes.</p>
-        <img src="public/image/angele.webp" alt="angele">
-        <h1>Simone de Beauvoir </h1>
+        
+     </div>
+
+     <div class="galeri__espace"> 
+        <h3>Simone de Beauvoir </h3>
+         <img src="public/image/simone_debeauvo.webp" alt="simone debeauvoir">
+  
         <p>Née le 9 janvier 1908 à Paris, ville où elle est morte le 14 avril 1986, est une philosophe, romancière, mémorialiste et essayiste française.
             Simone de Beauvoir est souvent considérée comme une théoricienne importante du féminisme, et a participé au mouvement de libération des femmes dans les années 1970. Son livre "Le deuxième sexe" est un des plus grands livres de la philosophie contemporaine sur le féminisme.</p>
-            <img src="public/image/simone_debeauvo.webp" alt="simone debeauvoir">
-            <h1>Malala Yousafzai </h1>
+              </div>
+              <div class="galeri__espace"> 
+            <h3>Malala Yousafzai </h3>
+             <img src="public/image/malala.webp" alt="malala Yousafzai">
+           
             <p>C’est une militante pakistanaise des droits des femmes née le 12 juillet 1997.
                 Elle se fait connaître en 2009, alors qu'elle n'a que 11 ans, en écrivant un blog appelé Journal d'une écolière pakistanaise pour la BBC. Elle y raconte son point de vue sur l'éducation et sa vie sous la domination des Talibans.
                 En 2012, elle est victime d'une tentative d'assassinat par des talibans où elle est grièvement blessée. Cette attaque est condamnée par toute la classe politique du pays. Elle est transférée vers l'hôpital de Birmingham au Royaume-Uni pour suivre un traitement plus poussé. Cette attaque conduit à une médiatisation internationale de Malala Yousafzai</p>
-                <img src="public/image/malala.webp" alt="malala Yousafzai">
-
+                  </div>
 
                 <section class="intro">
                     <div class="container">
@@ -95,11 +132,15 @@
                       </li>
                     </ul>
                   </section>
-                  <footer>                <h1>Me contacter</h1>
-                    <p>Nafissa arnone ; A1 ; nafissa.arnone@edu.univ-fcomte.fr</p>
-                    <h1>Mentions légales</h1>
-                    <p>Projet réalisé dans le cadre d’un exercice pédagogique au département MMI de Montbéliard</p>
-                    <img src="public/icones/france 1.svg" alt="drapeau francais">
-                    <img src="public/icones/anglais 1.svg" alt="drapeau anglais"></footer>
-                  
+
+                    <footer class="footer">
+        <h3>Me contacter</h3>
+        <p>Nafissa arnone ; A1 ; <a href="mailto:">nafissa.arnone@edu.univ-fcomte.fr</a> nafissa.arnone@edu.univ-fcomte.fr</p>
+        <h3>Mentions légales</h3>
+        <p>Projet réalisé dans le cadre d’un exercice pédagogique au département MMI de Montbéliard</p>
+        <a href="index.html">  <img  src="public/icones/france 1.svg" alt="drapeau francais"></a>
+       <a href="pang.html">   <img src="public/icones/anglais 1.svg" alt="drapeau anglais"></a>
+    </footer>
+</body>
+</html>
                   

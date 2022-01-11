@@ -41,3 +41,18 @@ body{
     line-height: 2.4;
     background-color: var(--rose-pâle);
 }  
+.projet__nom{
+    font-family: var(--site);
+    font-size: var(--heading-3);
+    text-align: center;
+
+}
+
+.projet__titre{
+    font-family: var(--site);
+    font-size: var(--heading-2);
+    text-align: center;
+    color: violet;
+    margin: 9px;
+
+}

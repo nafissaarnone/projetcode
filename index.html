@@ -5,26 +5,23 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Menu mobile</title>
-    <link rel="stylesheet" href="css/lib/normalize.css">
-    <link rel="stylesheet" href="css/mescss/typography.css">
-    <link rel="stylesheet" href="css/lib/layout/header.css">
-    <link rel="stylesheet" href="css/lib/layout/footer.css">
-    <link rel="stylesheet" href="css/mescss/menu.css">
-    
-    <link rel="stylesheet" href="css/utils/variable.css">
-    <link rel="stylesheet" href="css/button.css">
-    <link rel="stylesheet" href="css/tweet.css">
-    <link rel="stylesheet" href="css/legend.css">
-    <link rel="stylesheet" href="css/livre.css">
+  <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
 <header>
-    <a href="Menu mobile"></a>
-    <button class="nav-toggle" onclick="document.documentElement.classList.toggle('menu-open')">
-        <span class="nav-toggle-bar"></span>
-    </button>
-    <nav class="menu"> 
-        <ul class="menu__list">
+    
+    <div class="nav-toogle"  onclick="document.documentElement.classList.toggle('menu-open')">
+        <div class="nav-toogle-bar"></div>
+    </div>
+
+      
+
+    <nav class="menu">
+        <div class="menu__titre"> 
+         <h1 class="h1__menu">Victims</h1>  
+        
+         <a class="logo__menu" href="/index.html"> <img src="public/icones/logo.svg" alt="logo vitims"> </a> 
+       </div> <ul>
             <li class="menu__item" ><a class="menu__link" href="article.html">A-t-on encore besoin du féminisme</a></li>
             <li class="menu__item" ><a class="menu__link" href="article2.html">Beyoncé est-elle féministe</a></li>
             <li class="menu__item" ><a class="menu__link" href="article3.html">Le féminisme de Beyoncé fait débat</a></li>
@@ -39,9 +36,7 @@
         Victims
     </h1>
     <!-- <img src="public/icones/VICTIMS.webp" alt="victims"> -->
-    <a href="/index.html">
-        <img src="public/icones/logo.svg" alt="logo vitims">
-    </a>    
+    <a href="/index.html"> <img src="public/icones/logo.svg" alt="logo vitims"> </a> 
 </header>
     <main>
         <p>
@@ -80,11 +75,11 @@
     </main>
     <footer class="footer">
         <h3>Me contacter</h3>
-        <p>Nafissa arnone ; A1 ; nafissa.arnone@edu.univ-fcomte.fr</p>
+        <p>Nafissa arnone ; A1 ; <a href="mailto:">nafissa.arnone@edu.univ-fcomte.fr</a> nafissa.arnone@edu.univ-fcomte.fr</p>
         <h3>Mentions légales</h3>
         <p>Projet réalisé dans le cadre d’un exercice pédagogique au département MMI de Montbéliard</p>
-        <img src="public/icones/france 1.svg" alt="drapeau francais">
-        <img src="public/icones/anglais 1.svg" alt="drapeau anglais">
+        <a href="index.html">  <img  src="public/icones/france 1.svg" alt="drapeau francais"></a>
+       <a href="pang.html">   <img src="public/icones/anglais 1.svg" alt="drapeau anglais"></a>
     </footer>
 
     
